@@ -1,0 +1,201 @@
+.main-heading {
+  font-family: 'Pattaya', sans-serif;
+  color:#1979D2 ;
+  font-size: 8vw;
+  border: 20px solid #1979D2;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: none; 
+  text-shadow: 0 1px 0 white,
+               0 2px 0 white,
+               0 3px 0 white,
+               0 4px 0 white,
+               0 5px 0 white,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+body {
+  background: linear-gradient(grey, #424242 95%);
+  text-align: center;
+  
+}
+
+/**animation**/
+
+ .missy{
+  max-width: 300px;
+  outline: none;
+ 
+} 
+.missy:focus{ 
+animation:runningHorse 5s;
+}
+@keyframes runningHorse{
+  from{
+    margin-left: 0%;
+  }
+  to{
+    margin-left:75%;
+   }
+}
+/**end animation**/
+
+ul.task-bar a{
+  font-family: 'Cormorant Infant', serif;
+  text-align: center;
+  margin:0;
+  display: inline;
+  width: 300px;
+  
+}
+
+
+.task-bar li{
+   display: inline-block;
+   border-radius: 10px;
+   color: white;
+   border: 5px solid #1979D2;
+   word-spacing:0px;
+   list-style-type: none;
+   padding: 3px;
+   font-size: 3.5vw;
+   text-align:center;
+   position: horizontal;
+   margin: 20px 0 0;
+   padding: 10px 10px 10px 10px;
+  
+}
+
+.sign {
+  margin-top: 50px;
+  width: 710px;
+  height: 750px;
+  -webkit-filter: brightness(120%);
+  box-shadow:  24px 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.barn {
+ margin-top:50px;
+ margin-bottom: 50px;
+ -webkit-filter: brightness(150%);
+  width: 1000px;
+  height: 600px;
+  box-shadow: 24px 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.quote {
+   text-align: center;
+   padding-top: 10px;
+   font-family: 'Pattaya', sans-serif;
+   text-shadow: 0 0 50px #1979D2;
+   text-outline: 15px 15px #1979D2;
+   color: white;
+   font-size: 550%; 
+}
+
+#copyright {
+  font-family: 'Cormorant Infant', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+/* Home hover-link---*/
+
+.home:link {
+  background-color: none;
+}
+
+
+.home:hover {
+  background: linear-gradient(#1979D2 30%, darkblue);
+
+/* Aboutus hover-link---*/  
+  
+}
+.aboutus:link {
+  background-color: none;
+}
+
+
+.aboutus:hover {
+  background: linear-gradient(#1979D2 30%, darkblue);
+  
+}
+
+/* Whyus hover-link---*/
+
+.whyus:link {
+  background-color: none;
+}
+
+
+.whyus:hover {
+  background: linear-gradient(#1979D2 30%, darkblue);
+}
+
+/* Pricing hover-link---*/
+
+.pricing:link {
+  background-color: none;
+}
+
+
+.pricing:hover {
+  background: linear-gradient(#1979D2 30%, darkblue);
+}
+
+/* Contactus hover-link---*/
+
+.contactus:link {
+  background-color: none;
+}
+
+
+.contactus:hover {
+  background: linear-gradient(#1979D2 30%, darkblue);
+}
+
+/* More hover-link---*/
+
+.more:link {
+  background-color: none;
+}
+
+
+.more:hover {
+  background: linear-gradient(#1979D2 30%, darkblue);
+}
+
+
+img {
+ width:100%;
+ height:auto;
+ margin: 0 auto;
+}
+
+/* Media Q.-----*/
+
+@media all (max-width: 100%;) {
+  .taskbar {
+    display: block;
+  }   
+  
+}
+
+@media all (max-width: 375px;) {
+  .missy:focus{ 
+animation: false;
+}
+}
+
+
+
+
+
+
